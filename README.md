@@ -10,7 +10,7 @@ The original data from Miletic et al., 2021 used in the analysis is available at
 
 Copied directly from the final report:
 
-Placeholder text.
+Cognitive modeling is an important tool to investigate behavior and the brain. To this end, two large classes of models have been developed in the past: reinforcement learning (RL) models to portray the changes in behavior as a response to its consequences, and evidence accumulator models (EAMs) to portray the underlying processes of decision-making, including how long it takes to reach a decision. However, the combination of the two methodologies into one is recent, and few is known on how more complex RL learning rules that incorporate environmental volatility in their definitions could be used along EAMs. In this study, the volatile Kalman filter (VKF), as proposed by Piray and Daw, 2020, is tested as such a possible learning rule on a reversal learning task conducted by Miletić et al., 2021. A parameter recovery analysis was also conducted in order to ascertain the robustness of the VKF itself. Results indicated that the VKF has poor recovery of its parameters, especially the ones regarding the modeling of volatility, and that the simplest integration possible of it to an LBA is not enough to make it a good descriptor of participant accuracy and reaction time (RT) data. To solve this issue, it is recommended that future work focus on how the VKF can be improved to be more discrete in nature, or that a more complex linkage to an EAM with an urgency signal be attempted. Nevertheless, the increase of model complexity brought by the VKF was demonstrated to not worsen the BIC of the overall model, which gives hope to the overarching class of multi-layered learning rules.
 
 # Folder structure
 
